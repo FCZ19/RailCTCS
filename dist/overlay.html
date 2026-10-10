@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>列控车载设备人机界面</title><link rel="stylesheet" href="dmi.css"><style>
+html,body{width:100%;height:100%;margin:0;padding:0;overflow:hidden;background:#25292b}.dmi-body{display:block;min-height:0;padding:0;overflow:hidden}
+.unit,.unit.native-scale,.unit.no-bezel{position:absolute;left:0;top:0;width:741px;min-width:741px;height:582px;box-sizing:border-box;padding:12px;border:2px solid #34393b;border-radius:0;background:#25292b;box-shadow:none;transform-origin:0 0}
+.unit .display-row{display:grid;grid-template-columns:648px 53px;gap:12px;align-items:stretch}.unit .screen{display:block;width:648px;height:488px;aspect-ratio:auto;border:4px solid #0d1011;border-radius:0}
+.unit .side-keys{display:grid;gap:9px;padding:6px 0}.unit .side-keys button{font-size:14px}
+.unit .fixed-keys{display:grid;grid-template-columns:repeat(11,1fr);gap:8px;padding-top:10px;padding-right:65px}.unit .fixed-keys button{height:56px;padding:5px 6px}.unit .fixed-keys .function{font-size:12px;left:5px;top:5px}.unit .fixed-keys .digit{font-size:17px;right:7px;bottom:6px}.unit .fixed-keys .letters{font-size:9px;left:6px;bottom:7px}
+#connection-status{display:none!important}
+#operation-feedback[hidden],#display-error[hidden]{display:none!important}
+#display-error:not([hidden]){position:fixed;bottom:10px;left:12px;right:12px;z-index:20;background:#30252b;color:white;padding:10px}
+.window-controls{height:24px;margin-bottom:4px;display:flex;align-items:center;gap:4px;color:#bfc5c8;font:12px Arial,SimSun;cursor:move}.window-controls span{margin-right:auto;pointer-events:none}.window-controls button{height:23px;min-width:32px;border:1px solid #596065;background:#34383a;color:#e6e6e6;border-radius:3px;cursor:pointer;font:13px Arial,SimSun}.window-controls button:last-child:hover{background:#a52b2b}
+</style></head>
+<body class="dmi-body"><main id="unit" class="unit" aria-label="列控车载设备人机界面">
+
+  <div class="display-row"><div class="screen"><svg id="dmi" viewBox="0 0 640 480" role="img" aria-label="列控车载设备人机界面" xmlns="http://www.w3.org/2000/svg"></svg><div id="touch" class="touch"></div></div><div class="side-keys" id="side-keys"></div></div>
+  <div class="fixed-keys" id="fixed-keys"></div>
+<div id="connection-status" role="status">正在连接 TSW</div><div id="display-error" role="status" hidden></div>
+</main><div id="operation-feedback" role="status" hidden style="position:fixed;bottom:10px;left:50%;transform:translateX(-50%);padding:10px 16px;background:#30252b;color:#fff;border:1px solid #a17878;font:13px Microsoft YaHei;z-index:10"></div><script src="core.js"></script><script src="sound.js"></script><script src="dmi.js"></script><script>
+function fitOverlay(){const scale=Math.min(innerWidth/741,innerHeight/582);document.getElementById('unit').style.transform='scale('+scale+')'}
+addEventListener('resize',fitOverlay);fitOverlay();
+</script></body></html>

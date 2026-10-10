@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>列控车载设备人机界面</title><link rel="stylesheet" href="dmi.css"></head>
+<body class="dmi-body"><main id="unit" class="unit" aria-label="列控车载设备人机界面">
+  <div class="display-row"><div class="screen"><svg id="dmi" viewBox="0 0 640 480" role="img" aria-label="列控车载设备人机界面" xmlns="http://www.w3.org/2000/svg"></svg><div id="touch" class="touch"></div></div><div class="side-keys" id="side-keys"></div></div>
+  <div class="fixed-keys" id="fixed-keys"></div>
+  <section id="ato-panel" class="ato-panel" aria-label="ATO 操纵">
+    <div class="ato-actions"><button id="main-ato-start" type="button">启动 ATO</button><button id="main-ato-skip" type="button">跳过本站</button><button id="main-ato-stop" type="button">退出 ATO／常用制动</button><a href="ato.html">ATO 设置</a></div>
+    <div id="main-ato-state">正在读取 ATO 状态</div><div id="connection-status" role="status">正在连接本地桥接</div><div id="display-error" role="status" hidden></div><div id="main-ato-feedback" role="status" aria-live="polite">随时可点击启动或退出；结果显示在这里。</div>
+  </section>
+</main><div id="operation-feedback" role="status" hidden style="position:fixed;bottom:10px;left:50%;transform:translateX(-50%);padding:10px 16px;background:#30252b;color:#fff;border:1px solid #a17878;font:13px Microsoft YaHei;z-index:10"></div><script src="core.js"></script><script src="sound.js"></script><script src="ato-controls.js"></script><script src="main-ato.js"></script><script src="dmi.js"></script></body></html>

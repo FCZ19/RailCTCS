@@ -1,0 +1,7 @@
+const test=require('node:test'),assert=require('node:assert/strict'),C=require('../dist/core.js');
+test('DMI ATO information identifies coasting and target speed',()=>{assert.equal(C.atoMessage({valid:true,ato:{active:true,phase:'coast',targetSpeed:78}}),'ATO 惰行 · 目标 78.0 km/h')});
+test('DMI identifies speed-limit cruise without a destination',()=>{assert.match(C.atoMessage({valid:true,ato:{hasDestination:false,active:true,phase:'power',targetSpeed:78}}),/限速巡航.*78.0/)});
+test('ATO curve uses backend samples rather than an independently calculated approximation',()=>{const points=[{distance:0,speed:78},{distance:400,speed:0}];assert.deepEqual(C.atoPlan({valid:true,ato:{active:true,curve:points}},8000),points)});
+test('ATO exit and stale telemetry remove curve and stale information',()=>{assert.deepEqual(C.atoPlan({valid:true,ato:{active:false,curve:[{distance:0,speed:80}]}},8000),[]);assert.equal(C.atoMessage({valid:false,ato:{active:true,phase:'coast'}}),'')});
+test('invalid and out of view target samples are excluded',()=>{assert.deepEqual(C.atoPlan({valid:true,ato:{active:true,curve:[{distance:0,speed:60},{distance:NaN,speed:80},{distance:100,speed:-1},{distance:9000,speed:100}]}},8000),[{distance:0,speed:60}])});
+test('live engine carries ATO status to the DMI and clears it on loss',()=>{const e=new C.Engine();e.setRemote({Fresh:true,DmiReady:true,CabActivation:{active:true},Speed:50,Ato:{phase:'coast',active:true,targetSpeed:52}});assert.equal(e.snapshot().ato.phase,'coast');e.setRemote(null);assert.equal(e.snapshot().ato,null)});

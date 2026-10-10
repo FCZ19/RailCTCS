@@ -1,0 +1,49 @@
+{
+  "source": "C:/Program Files/RailBridge/RailBridge-app.exe",
+  "project": "RailBridge",
+  "version": "3.4.0",
+  "project_url": "https://campinge.eu/railbridge/index.html",
+  "note": "用户指定使用的本机 RailBridge 音效；从已安装版本读取，WAV 原始字节保持不变，权利归原作者。",
+  "files": [
+    {
+      "file": "S1_toofast.wav",
+      "bytes": 183898,
+      "sha256": "f2679e60833f48bac0738d49f4d25d25f9e7fec08c63f7d4fbb1ad165e2e20a1",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": 2.063
+    },
+    {
+      "file": "S2_warning.wav",
+      "bytes": 317636,
+      "sha256": "338c505e54cc24ee5aeec38c0b50a4776a3526b7a90b7e6f4ba38af4f8095de2",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": 3.574
+    },
+    {
+      "file": "S_click.wav",
+      "bytes": 90340,
+      "sha256": "759a96d35247f7642efc8dc606e28b4c2b3952db00be5e853e7e65366c5f11b7",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": 1.007
+    },
+    {
+      "file": "S_info.wav",
+      "bytes": 152624,
+      "sha256": "4c4d6f51b1506b8755505f2861517a5924fdb59c3e95fa86c2704117a2d7b0ef",
+      "channels": 1,
+      "sample_rate": 44100,
+      "duration": 1.71
+    },
+    {
+      "file": "notch.wav",
+      "bytes": 192078,
+      "sha256": "9a0e59fe2753a79a4f3c93e8df1f766cc608d25829a1d21c70ce1ab511061627",
+      "channels": 2,
+      "sample_rate": 48000,
+      "duration": 1.0
+    }
+  ]
+}

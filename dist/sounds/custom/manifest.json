@@ -1,0 +1,44 @@
+[
+  {
+    "name": "允许缓解",
+    "file": "01.wav",
+    "source": "用户提供的音效/允许缓解.mp4",
+    "sha256": "a1b212253edf95dc644f0ef8673461c1f504f2262765df910af91361bf218aa2"
+  },
+  {
+    "name": "减速",
+    "file": "02.wav",
+    "source": "用户提供的音效/减速.mp4",
+    "sha256": "7f40f7063d2a00cd3de996cebb7c84bad28c0d3408ea02dabd091cd68dda617c"
+  },
+  {
+    "name": "制动完成",
+    "file": "03.wav",
+    "source": "用户提供的音效/制动完成.mp4",
+    "sha256": "326e2d076f48c1d01572d3eea0abc6775bf73c8d92b3509df16828f7790469b3"
+  },
+  {
+    "name": "右侧站台",
+    "file": "04.wav",
+    "source": "用户提供的音效/右侧站台.mp4",
+    "sha256": "e0a01dac8401b08f50f1bdaaceddf217ec7637eeac1432655ce33f9b2e01209f"
+  },
+  {
+    "name": "左侧站台",
+    "file": "05.wav",
+    "source": "用户提供的音效/左侧站台.mp4",
+    "sha256": "2b990da423e91bfe376db785f69ab4eb043c977641420bfc756a83e7c1329a23"
+  },
+  {
+    "name": "开机，动车提示音",
+    "file": "06.wav",
+    "source": "用户提供的音效/开机，动车提示音.mp4",
+    "sha256": "0ad2334cba10ca5075f05e056a118bbd5ffb9f494beb7d8292d8ee9e86eb87cd"
+  },
+  {
+    "name": "控制速度",
+    "file": "07.wav",
+    "source": "用户提供的音效/控制速度.mp4",
+    "sha256": "631cfd0d0064dcdb10f23bd948f019d53f872cdbf57bcd12524e9050490a960e"
+  }
+]

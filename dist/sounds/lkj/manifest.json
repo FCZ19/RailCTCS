@@ -1,0 +1,324 @@
+[
+  {
+    "name": "绿灯",
+    "file": "01.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%BB%BF%E7%81%AF.wav",
+    "sha256": "62b73fb17c5512600b278ac88ecd1dffbea9f349f780b9a5af08db0e0eef03af",
+    "bytes": 644720
+  },
+  {
+    "name": "绿黄灯",
+    "file": "02.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%BB%BF%E9%BB%84%E7%81%AF.wav",
+    "sha256": "441e74e100adde56d46ec28d9c8f6e83da0f06795d1e6e5876d499716c0d49c1",
+    "bytes": 1048328
+  },
+  {
+    "name": "一黄灯",
+    "file": "03.wav",
+    "source": "https://lkj.ss9g1145.cn/%E4%B8%80%E9%BB%84%E7%81%AF.wav",
+    "sha256": "7a04b56581fe9daa298b5d89e686062b6b5310236286e00e1cbe065eb9af0246",
+    "bytes": 949516
+  },
+  {
+    "name": "黄二灯",
+    "file": "04.wav",
+    "source": "https://lkj.ss9g1145.cn/%E9%BB%84%E4%BA%8C%E7%81%AF.wav",
+    "sha256": "42d142028fb0f0c193bae825f77a413bb8efec3ce67d2f0427e6fa4d2864bab0",
+    "bytes": 994196
+  },
+  {
+    "name": "双黄灯",
+    "file": "05.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%8F%8C%E9%BB%84%E7%81%AF.wav",
+    "sha256": "b7ee6d8afc39994acb29eb9431faa9fd6386ee0548394e63d2b328eb03106a50",
+    "bytes": 1305200
+  },
+  {
+    "name": "白灯",
+    "file": "06.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%99%BD%E7%81%AF.wav",
+    "sha256": "d38c16c54f60e8f176da617b44751f26200ef3d06ebdc1e32f4d7947faa62044",
+    "bytes": 744536
+  },
+  {
+    "name": "蓝灯停车",
+    "file": "07.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%93%9D%E7%81%AF%E5%81%9C%E8%BD%A6.wav",
+    "sha256": "b6af882a604dd752057490770ee0cc20fa30ee11d7d9357d87806dd6feb04afe",
+    "bytes": 198354
+  },
+  {
+    "name": "红黄灯",
+    "file": "08.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%BA%A2%E9%BB%84%E7%81%AF.wav",
+    "sha256": "ec3acf1d619d22aa2bd5ab6ccdc3fe477dfbdcf1eca41782edf131d18001348b",
+    "bytes": 1078108
+  },
+  {
+    "name": "红灯",
+    "file": "09.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%BA%A2%E7%81%AF.wav",
+    "sha256": "a08a94f5e23600ca5474beb4ed241fc02bd9b4eb26b4a594ba444449e4fe3e18",
+    "bytes": 1097444
+  },
+  {
+    "name": "一车",
+    "file": "10.wav",
+    "source": "https://lkj.ss9g1145.cn/%E4%B8%80%E8%BD%A6.wav",
+    "sha256": "be4441605fb4fff60d53e79b4fdf0ef3796f02ab2a9e1a5b3ec838599a36e6b5",
+    "bytes": 115980
+  },
+  {
+    "name": "三车",
+    "file": "11.wav",
+    "source": "https://lkj.ss9g1145.cn/%E4%B8%89%E8%BD%A6.wav",
+    "sha256": "90b031310a9bee0bf1a60bd6babc13cfb2f60dd3990c0c2fb82b57a5c46b384a",
+    "bytes": 228492
+  },
+  {
+    "name": "五车",
+    "file": "12.wav",
+    "source": "https://lkj.ss9g1145.cn/%E4%BA%94%E8%BD%A6.wav",
+    "sha256": "127b5fc2b66342a38fbae29185a5bb73cc7cc39b44ff6ac3c09524d5a570bc34",
+    "bytes": 116780
+  },
+  {
+    "name": "减速",
+    "file": "13.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%87%8F%E9%80%9F.wav",
+    "sha256": "1cb15486bc84e3bcaab7b46e3fa813a6ffec9628d60e5e0d8bc7ade1f032fed9",
+    "bytes": 749716
+  },
+  {
+    "name": "停车",
+    "file": "14.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%81%9C%E8%BD%A6.wav",
+    "sha256": "2f08f40423fcdccbc6ce1ffc813a68d4bc311094f503500f86ca1aecf2f84635",
+    "bytes": 316148
+  },
+  {
+    "name": "启动",
+    "file": "15.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%90%AF%E5%8A%A8.wav",
+    "sha256": "88393a3132ded6b15b00f22f3ae68bf2a4eed50af782700031d58a65792ba5cc",
+    "bytes": 569012
+  },
+  {
+    "name": "入段",
+    "file": "16.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%85%A5%E6%AE%B5.wav",
+    "sha256": "2fbe44f292e1c0eb138197fe52d68d7a192e0e9aefee899f153368961b05de0e",
+    "bytes": 262734
+  },
+  {
+    "name": "连接",
+    "file": "17.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BF%9E%E6%8E%A5.wav",
+    "sha256": "5b2cd4592b41ea9aaab08dec5704c8f7b8ea54e5c55fbe09b61c9641b9d1b29b",
+    "bytes": 154022
+  },
+  {
+    "name": "进入调车",
+    "file": "18.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BF%9B%E5%85%A5%E8%B0%83%E8%BD%A6.wav",
+    "sha256": "18841999e8f0ab75f1a1a559927ea58d6460549aac11c4d4d2e358e793ee77cf",
+    "bytes": 935272
+  },
+  {
+    "name": "退出调车",
+    "file": "19.wav",
+    "source": "https://lkj.ss9g1145.cn/%E9%80%80%E5%87%BA%E8%B0%83%E8%BD%A6.wav",
+    "sha256": "7a36534979b3123350ba4fe7922bff8dbd5451b8ba1486e390efbdaddaabf43c",
+    "bytes": 876520
+  },
+  {
+    "name": "单独缓解",
+    "file": "20.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%8D%95%E7%8B%AC%E7%BC%93%E8%A7%A3.wav",
+    "sha256": "48097637fcd45707071e1632d2f82717d6b144f570d211e8e9762a1518ac6873",
+    "bytes": 164624
+  },
+  {
+    "name": "大闸缓解内",
+    "file": "21.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%A4%A7%E9%97%B8%E7%BC%93%E8%A7%A3%E5%86%85.wav",
+    "sha256": "ad5e180e1caffe0888a1c080421311060b206ca3b36b2827641fc5a0423e7b09",
+    "bytes": 689016
+  },
+  {
+    "name": "机车缓解",
+    "file": "22.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%9C%BA%E8%BD%A6%E7%BC%93%E8%A7%A3.wav",
+    "sha256": "7b4d9c7821ef11a7a64c50646f90bdbc189fa1ba064c91a94edaf92d0440c473",
+    "bytes": 316856
+  },
+  {
+    "name": "紧急制动",
+    "file": "23.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%B4%A7%E6%80%A5%E5%88%B6%E5%8A%A8.wav",
+    "sha256": "122dd3cbef37ee3c72e52d1eafd3d0a0825da542dbf26c494b5ed2390911c0b1",
+    "bytes": 348632
+  },
+  {
+    "name": "注意停车",
+    "file": "24.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E5%81%9C%E8%BD%A6.wav",
+    "sha256": "5ba87efa5cc3882d93cc7be0bdec403347cb57cb6a7ac4ae24194110ce5bba4c",
+    "bytes": 696516
+  },
+  {
+    "name": "注意限速",
+    "file": "25.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E9%99%90%E9%80%9F.wav",
+    "sha256": "ab07854f879c94327a440239529df34fb388b62ac2f28ae5fb0ed0e2dc98834c",
+    "bytes": 651112
+  },
+  {
+    "name": "注意行车",
+    "file": "26.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E8%A1%8C%E8%BD%A6.wav",
+    "sha256": "77d2ae2bf9c73086ec810fdd872628c77a5b27550c9e671ec31c6e3b4c350edf",
+    "bytes": 697836
+  },
+  {
+    "name": "注意运行",
+    "file": "27.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E8%BF%90%E8%A1%8C.wav",
+    "sha256": "feafdbc7c24e1d6f7c77a2f7f3e0bcdccbee5153618ff0c787b8e342e9adf96e",
+    "bytes": 696952
+  },
+  {
+    "name": "注意道岔限速",
+    "file": "28.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E9%81%93%E5%B2%94%E9%99%90%E9%80%9F.wav",
+    "sha256": "58d20d6c1a6a18a62331e04919767d8294b039150eba290db669b9c60b3b618f",
+    "bytes": 808616
+  },
+  {
+    "name": "注意前方限速",
+    "file": "29.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E5%89%8D%E6%96%B9%E9%99%90%E9%80%9F.wav",
+    "sha256": "63fdbe099774661b5dbb1a21580fa8398a0745a61d388321b4b6dc4e000ea980",
+    "bytes": 889756
+  },
+  {
+    "name": "注意按开车键",
+    "file": "30.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E6%8C%89%E5%BC%80%E8%BD%A6%E9%94%AE.wav",
+    "sha256": "fbc628f5f65de431654bbd8252ef9cff141ba5a62fe86e10c4f8cd58e627c273",
+    "bytes": 857888
+  },
+  {
+    "name": "注意管压防溜",
+    "file": "31.wav",
+    "source": "https://lkj.ss9g1145.cn/%E6%B3%A8%E6%84%8F%E7%AE%A1%E5%8E%8B%E9%98%B2%E6%BA%9C.wav",
+    "sha256": "cbec951218c06d765663bd508e8b60c66126a4627691d72e87538b8b65132291",
+    "bytes": 802928
+  },
+  {
+    "name": "请注意调车信号",
+    "file": "32.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%AF%B7%E6%B3%A8%E6%84%8F%E8%B0%83%E8%BD%A6%E4%BF%A1%E5%8F%B7.wav",
+    "sha256": "fef0737900cc52d1c9181926261e16b7c284894a8673c6d2d45431a5d5f38fa3",
+    "bytes": 532302
+  },
+  {
+    "name": "请确认信号",
+    "file": "33.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%AF%B7%E7%A1%AE%E8%AE%A4%E4%BF%A1%E5%8F%B7.wav",
+    "sha256": "89f883bd785effbe2b3f82356a831338773d786b05ee84a7da99504949bbc8ff",
+    "bytes": 339298
+  },
+  {
+    "name": "白灯请确认进路",
+    "file": "34.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%99%BD%E7%81%AF%E8%AF%B7%E7%A1%AE%E8%AE%A4%E8%BF%9B%E8%B7%AF.wav",
+    "sha256": "5dc4a744ba1d1aecfe4958c4c9ff764273abf26f4a997acd8cf6515c0337ec9d",
+    "bytes": 457134
+  },
+  {
+    "name": "输入车次",
+    "file": "35.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E8%BD%A6%E6%AC%A1.wav",
+    "sha256": "8391cd5a49b45f3f1dd57ca2f79025f1bdaa7f4c5704222999051f3320bb15c5",
+    "bytes": 154446
+  },
+  {
+    "name": "输入辆数",
+    "file": "36.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E8%BE%86%E6%95%B0.wav",
+    "sha256": "0be63f2fc553f4621a3fa4066eabbe12911fecf90298c899a21e948782537482",
+    "bytes": 140622
+  },
+  {
+    "name": "输入计长",
+    "file": "37.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E8%AE%A1%E9%95%BF.wav",
+    "sha256": "2de0de5c9672ac9d9c3eac14908f10b354f833bd6f8fc8f4cd16722991b95866",
+    "bytes": 191310
+  },
+  {
+    "name": "输入司机号",
+    "file": "38.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E5%8F%B8%E6%9C%BA%E5%8F%B7.wav",
+    "sha256": "0d9d99b16a80282db9495ce3fadb1097ecd81f107dfbf106757556d69d8fb02e",
+    "bytes": 184398
+  },
+  {
+    "name": "输入区段号",
+    "file": "39.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E5%8C%BA%E6%AE%B5%E5%8F%B7.wav",
+    "sha256": "ec2f44ebf411bc47338d27ea933832766b7f494859c60f53570fd99a71fd4bf3",
+    "bytes": 170574
+  },
+  {
+    "name": "输入车站号",
+    "file": "40.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E8%BD%A6%E7%AB%99%E5%8F%B7.wav",
+    "sha256": "0855632dccee47e5250b3f0a35896f5f0bb502c228d73272ef17b5d7668dfb6e",
+    "bytes": 170574
+  },
+  {
+    "name": "输入牵引重量",
+    "file": "41.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E7%89%B5%E5%BC%95%E9%87%8D%E9%87%8F.wav",
+    "sha256": "4d2c9b9f9cc77d35cd9a84133987066026157baf6a269d8d0264409da430732f",
+    "bytes": 200526
+  },
+  {
+    "name": "输入侧线股道",
+    "file": "42.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BE%93%E5%85%A5%E4%BE%A7%E7%BA%BF%E8%82%A1%E9%81%93.wav",
+    "sha256": "40f181050e0305955966df856ceb646a4bb9c7d0e0547d78e8553741a6099a9c",
+    "bytes": 317954
+  },
+  {
+    "name": "车机联控",
+    "file": "43.wav",
+    "source": "https://lkj.ss9g1145.cn/%E8%BD%A6%E6%9C%BA%E8%81%94%E6%8E%A7.wav",
+    "sha256": "ef07d2bbcc487f1d86d8d7baadc5398c01b61d68228126f43e1012f82aef3ccc",
+    "bytes": 740756
+  },
+  {
+    "name": "监控运行",
+    "file": "44.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C.wav",
+    "sha256": "89e949e877bacf79affd8fa4322197d63cbfe1aafd1f0e10fc60944e5218de11",
+    "bytes": 297294
+  },
+  {
+    "name": "监控按键声",
+    "file": "45.wav",
+    "source": "https://lkj.ss9g1145.cn/%E7%9B%91%E6%8E%A7%E6%8C%89%E9%94%AE%E5%A3%B0.wav",
+    "sha256": "879b2507dc3df54018d107fa658877f99691401db91799ce9590ea270202f902",
+    "bytes": 119486
+  },
+  {
+    "name": "刹车声内",
+    "file": "46.wav",
+    "source": "https://lkj.ss9g1145.cn/%E5%88%B9%E8%BD%A6%E5%A3%B0%E5%86%85.wav",
+    "sha256": "0af7667df2d2805f0a5a459a448a6b031e4a30fcca8afb045830d2645cb1fd63",
+    "bytes": 364696
+  }
+]

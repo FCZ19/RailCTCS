@@ -1,0 +1,10 @@
+work/
+**/EBWebView/
+bridge-settings.json
+route-profiles.json
+*CommAPIKey*
+*.log
+*.pid
+.env
+.env.*
+__pycache__/

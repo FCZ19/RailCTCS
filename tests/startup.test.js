@@ -1,0 +1,6 @@
+const test=require('node:test'),assert=require('node:assert/strict'),C=require('../dist/core.js');
+test('startup has half second black then one and a half seconds startup text before DMI',()=>{const b=new C.DmiStartup();assert.equal(b.update(true,100),'black');assert.equal(b.update(true,599),'black');assert.equal(b.update(true,600),'message');assert.equal(b.update(true,2099),'message');assert.equal(b.update(true,2100),'ready');assert.equal(b.update(true,10000),'ready')});
+test('disconnected or inactive cab never starts boot sequence',()=>{const b=new C.DmiStartup();assert.equal(b.update(false,0),'off');assert.equal(b.update(false,5000),'off');assert.equal(b.update(true,6000),'black')});
+test('power loss restarts boot on next activation',()=>{const b=new C.DmiStartup();b.update(true,0);b.update(true,3000);assert.equal(b.update(false,4000),'off');assert.equal(b.update(true,9000),'black')});
+test('custom train number overrides game service',()=>{assert.equal(C.trainNumber({service:'Game service'},{train:' G123 '}),'G123')});
+test('empty custom train number falls back to meaningful game service',()=>{assert.equal(C.trainNumber({service:'1A23'},{train:''}),'1A23');assert.equal(C.trainNumber({service:'FreeRoamService_1'},{train:''}),'')});
